@@ -1,0 +1,36 @@
+LINUX COMMAND OUTPUTS
+Command output for uname -a   
+- Linux kali 5.18.0-kali5-amd64 #1 SMP PREEMPT_DYNAMIC Debian 5.18.5-1kali6 (2022-07-07) x86_64 GNU/Linux
+
+Command output for sudo apt update && sudo apt list --upgradable | head -5
+- sudo apt update && sudo apt list --upgradable | head -5
+[sudo] password for josephex: 
+Get:1 http://kali.download/kali kali-rolling InRelease [34.0 kB]                                             
+Get:2 https://ngrok-agent.s3.amazonaws.com buster InRelease [20.3 kB]                                        
+Get:3 http://kali.download/kali kali-rolling/main amd64 Packages [21.4 MB]
+Get:4 https://ngrok-agent.s3.amazonaws.com buster/main amd64 Packages [12.7 kB]
+Get:5 http://kali.download/kali kali-rolling/main amd64 Contents (deb) [53.5 MB]                                                                            
+Get:6 http://kali.download/kali kali-rolling/contrib amd64 Packages [105 kB]                                                                                
+Get:7 http://kali.download/kali kali-rolling/contrib amd64 Contents (deb) [190 kB]                                                                          
+Get:8 http://kali.download/kali kali-rolling/non-free amd64 Packages [169 kB]                                                                               
+Get:9 http://kali.download/kali kali-rolling/non-free amd64 Contents (deb) [887 kB]                                                                         
+Get:10 http://kali.download/kali kali-rolling/non-free-firmware amd64 Packages [15.8 kB]                                                                    
+Get:11 http://kali.download/kali kali-rolling/non-free-firmware amd64 Contents (deb) [40.5 kB]                                                              
+Fetched 76.3 MB in 35s (2,175 kB/s)                                                                                                                         
+2613 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Warning: http://http.kali.org/kali/dists/kali-rolling/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+Listing...
+7zip/kali-rolling 26.02+dfsg-2 amd64 [upgradable from: 24.09+dfsg-7]
+aapt/kali-rolling 1:14~beta1-5 amd64 [upgradable from: 1:14~beta1-3]
+acl/kali-rolling 2.4.0-1 amd64 [upgradable from: 2.3.1-1]
+adduser/kali-rolling 3.157 all [upgradable from: 3.123]
+
+Command Output for ls -la /home
+- total 16
+drwxr-xr-x  4 root     root     4096 Jun 10 12:59 .
+drwxr-xr-x 19 root     root     4096 Feb 17  2025 ..
+drwx------ 15 Josephex Josephex 4096 Jun  9 13:15 Josephex
+drwxr-xr-x 46 josephex kali     4096 Jul 21 04:01 kali
+
+                                     
